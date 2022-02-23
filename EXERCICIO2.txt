@@ -1,0 +1,17 @@
+Algoritmo "exercicio2"
+
+Var
+   num1,num2,soma:inteiro
+
+Inicio
+
+         escreva("escreva um número: ")
+         leia(num1)
+         
+         escreva("Escreva outro número: ")
+         leia(num2)
+         
+         soma := num1 + num2
+         
+         escreva("A soma dos números é:" , soma)
+Fimalgoritmo

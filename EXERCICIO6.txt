@@ -1,0 +1,17 @@
+algoritmo "exercicio6"
+var
+dimen,base,altura:real
+inicio
+
+
+      escreva("Escreva a base do triângulo: ")
+      leia(base)
+      
+      escreva("Escreva a altura do triângulo: ")
+      leia(altura)
+      
+      dimen := (base * altura) /2
+      
+      escreva("As dimensões do triângulo são: " , dimen)
+
+fimalgoritmo

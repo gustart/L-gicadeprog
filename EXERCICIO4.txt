@@ -1,0 +1,13 @@
+algoritmo "exercicio4"
+var
+   tempcelsios, tempfarh: real
+inicio
+
+
+      escreva(" Escreva a temperatura em Fahrenheit: ")
+      leia(tempfarh)
+      
+           tempcelsios := (5 * (tempfarh - 32)/9)
+           
+           escreva("A temperatura em celsios é: " , tempcelsios)
+fimalgoritmo
